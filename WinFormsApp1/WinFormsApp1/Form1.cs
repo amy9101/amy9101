@@ -26,5 +26,10 @@ namespace WinFormsApp1
         {
             textBox2.Text = "버튼 3을 클릭하였습니다";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = "main_2 브렌치에서 버튼 생성"
+        }
     }
 }
